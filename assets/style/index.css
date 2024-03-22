@@ -55,12 +55,14 @@ button {
     display: grid;
     grid-auto-rows: 80px;
     grid-template-columns: repeat(5, 1fr); /* Two columns */
-    gap: 20px; /* Gap between grid items */
+    gap: 10px; /* Gap between grid items */
     width: 98%;
     height: 380px;
     margin-top: 25px;
     background-color: #ffffff26;
     transform: rotateX(180deg);
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .blue {
@@ -86,7 +88,7 @@ button {
 .square {
     width: 80px;
     height: 80px;
-    border-radius: 1px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
