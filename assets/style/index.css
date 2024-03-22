@@ -104,3 +104,15 @@ button {
     position: relative;
     height: 40px;
 }
+
+@media (min-width: 326px) and (max-width: 480px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media (max-width: 325px) {
+    main {
+        width: 60%;
+    }
+}
